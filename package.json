@@ -14,10 +14,46 @@
   "contributes": {
     "commands": [
       {
-        "command": "quickright.helloWorld",
-        "title": "Hello World"
+        "command": "quickright.openWorkspaceNewWindow",
+        "title": "Open Workspace in New Window"
+      },
+      {
+        "command": "quickright.replaceWorkspaceWithFolder",
+        "title": "Replace Workspace with Folder"
+      },
+      {
+        "command": "quickright.openFolderFiles",
+        "title": "Open Files in Folder"
+      },
+      {
+        "command": "quickright.openFolderFilesRecursive",
+        "title": "Open Files Recursively"
       }
-    ]
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "quickright.openWorkspaceNewWindow",
+          "when": "explorerResourceIsFolder",
+          "group": "1_navigation"
+        },
+        {
+          "command": "quickright.replaceWorkspaceWithFolder",
+          "when": "explorerResourceIsFolder",
+          "group": "1_navigation"
+        },
+        {
+          "command": "quickright.openFolderFiles",
+          "when": "explorerResourceIsFolder",
+          "group": "2_opener"
+        },
+        {
+          "command": "quickright.openFolderFilesRecursive",
+          "when": "explorerResourceIsFolder",
+          "group": "2_opener"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
