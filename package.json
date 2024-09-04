@@ -3,6 +3,7 @@
   "displayName": "quickright",
   "description": "",
   "version": "0.0.1",
+  "icon": "images/quickright-icon.png",
   "engines": {
     "vscode": "^1.92.0"
   },
