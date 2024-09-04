@@ -1,71 +1,31 @@
 # quickright README
 
-This is the README for your extension "quickright". After writing up a brief description, we recommend including the following sections.
+"quickright" is a VS Code extension that enhances your workflow by providing convenient commands to manage your workspace and open files efficiently. With "quickright," you can quickly open folders in new or existing windows, as well as open files within a folder, both recursively and non-recursively. This extension is designed to streamline file and workspace management, making it an essential tool for any developer using Visual Studio Code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Open Workspace in New Window**: Quickly open a specified workspace folder in a new window.
+- **Replace Current Workspace**: Replace the current workspace with a specified folder, reusing the same window.
+- **Open All Files in a Folder**: Open all files within a specified folder.
+- **Open All Files in a Folder Recursively**: Recursively open all files within a specified folder and its subdirectories.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To use "quickright", you need to have VSCode version 1.92 or higher.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+"quickright" does not add any custom settings to the VS Code settings menu. It is designed to work seamlessly out of the box.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Stay up to date with the latest improvements and bug fixes!
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Initial release of "quickright".
+- Features include opening a workspace in a new window, replacing the current workspace, opening all files in a folder, and opening all files recursively.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy using quickright!**
